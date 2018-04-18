@@ -5,6 +5,7 @@
   "homepage": "https://mikeheiser9.github.io/react-app-1",
   "dependencies": {
     "deploy": "^1.0.3",
+    "gh-pages": "^1.1.0",
     "github-pages": "^3.0.2",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
