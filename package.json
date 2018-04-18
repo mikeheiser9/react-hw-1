@@ -2,8 +2,9 @@
   "name": "react-hw-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mikeheiser9.github.io/react-app-1",
+  "homepage": "https://mikeheiser9.github.io/react-hw-1",
   "dependencies": {
+    "build": "^0.1.4",
     "deploy": "^1.0.3",
     "gh-pages": "^1.1.0",
     "github-pages": "^3.0.2",
@@ -16,7 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts-deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
